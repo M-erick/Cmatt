@@ -57,7 +57,7 @@
         <div class="profile-card"
             style="height:500px; margin:  0 !important; box-shadow: none !important; background-image:url('cytonn-display.jpeg') !important; background-size: cover;">
 
-            <div class="top-bar" style="background-color: gray; ">
+            <div class="top-bar" style="background-color: rgba(102,102,102,255); ">
                 <ul class="left" style="list-style-type: none; background-color: transparent;">
                     <!-- <li><a href="#">Cytonn<span>.</span></a></li> -->
                     <img src="images/image01.png" alt="" width="100" height="100" style=" margin-right:50px;">
@@ -73,13 +73,11 @@
                     <li style="margin-right: 20px;"><a href="#Kitchen">Kitchen</a></li>
                     <li style="margin-right: 20px;"><a href="#contact">|</a></li>
                     <li style="margin-right: 20px;"><a href="#Services">Services</a></li>
-
                     <li style="margin-right: 20px;"><a href="#About Us">About Us</a></li>
-
                     <li style="margin-right: 20px;"><a href="#Contact Us">Contact Us</a></li>
+                    <li style="margin-right: 20px; "><a href="#contact"><i class="fa-solid fa-magnifying-glass"></i></a> </li>
+                    <input type="search" style="background-color: transparent; border: none;" value=" ">
 
-                    <li style="margin-right: 90px; "><a href="#contact"><i class="fa-solid fa-magnifying-glass"></i></a>
-                    </li>
 
                 </ul>
             </div>
@@ -87,6 +85,7 @@
 
 
         </div>
+        <!-- Make this responsive -->
         <!-- breadcrumbs -->
         <div style=" padding-left: 50px; padding-bottom: 0 !important; padding-top: 50px;">
             <nav aria-label="You are here:" role="navigation">
@@ -99,13 +98,13 @@
             </nav>
         </div>
 
-        <section id="Item-display" style="padding-top: 0 !important;">
+        <section id="Item-display" style="padding-top: 0 !important; border-bottom: 1px solid rgb(237, 235, 235);">
             <div class="card-container">
 
-                <div class="profile-card" style="">
-                    <div class="profile-info" style="">
+                <div class="profile-card" style="padding-left: 20px;padding-right: 20px;">
+                    <div class="profile-info" style=" padding-left: 30px; ">
                         <!-- image -->
-                        <img src="images/godlen.jpeg" height="50px" width="550" alt="" style="padding-left: 30px; ">
+                        <img src="images/electricBell.jpeg" height="50px" width="550" alt="" style=" ">
                         <!-- <p class="text-center" style="font-weight:bold;">Skills</p> -->
                     </div>
                     <div
@@ -115,8 +114,6 @@
 
 
                         </div>
-
-
                         <img src="images/godlen.jpeg" height="40px" width="50px" alt="">
                         <img src="images/godlen.jpeg" height="40px" width="50px" alt="">
                         <!-- arrange the items in flex mode:view image of the product -->
@@ -124,14 +121,11 @@
                     <div style="padding-left: 30px">
                         <h6>Color</h6>
                         <!-- add checkout buttons -->
-
                         <div>
-                            <input type="radio" id="option1" style="padding-right: 20px; border: 5px;" value="option1">
+                            <input type="radio" id="option1" style="padding-right: 20px; border: 5px;" name="selections"  value="option1">
 
-                            <input type="radio" id="option2" value="option2">
+                            <input type="radio" id="option2" name="selections" value="option2">
                         </div>
-
-
 
                         <div style="display: flex; justify-content: flex-start; padding-top: px; padding-bottom: 50px;">
                             <h6 style="padding-right: 29px;">Size</h6>
@@ -169,6 +163,7 @@
 
                         <!-- <button class="  button" >Contact us</button> -->
 
+                        <!-- Change  font color of this part -->
                         <p style="color: #b5b0b0; font-weight: bold;"> Or call Cymatt: <span
                                 style="color:rgb(221, 147, 9);line-height: 0.5;">(254) 800-304 </span></p>
 
@@ -178,13 +173,13 @@
 
                         <h6>DESCRIPTION</h6>
                         <p style="text-align: left; color: #706f6f;">The switch contact are made of high quality silver
-                            <br>
+                            
                             material,which have a good performance against electric arc
-                            <br>
+                            
                             and melt weld.The on-off operations exceed 40000 times .
-                            <br>
+                            
                             The socket are made of phosphor bronze ,which have the
-                            <br>
+                            
                             character of good electrical conductivity and lasting elasticity.</p>
 
                         <h6 style="padding-top: 40px;padding-bottom:5px;">PRODUCT SPECIFICATIONS</h6>
@@ -208,7 +203,6 @@
                     </div>
                 </div>
             </div>
-            <hr style="padding-left: 0 !important;">
         </section>
 
 
@@ -383,7 +377,7 @@
                     <div class="input-group">
                         <input class="input-group-field" type="email">
                         <div class="input-group-button">
-                            <input type="submit" class="button" value="Sign Up">
+                            <input type="submit" class="button" value="Sign Up" style="background-color:rgb(53, 52, 52);">
 
 
                         </div>
